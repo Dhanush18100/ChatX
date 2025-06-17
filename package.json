@@ -2,10 +2,13 @@
   "name": "chatx",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-  "start": "node backend/src/index.js"
-},
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/src/index.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dhanush18100/ChatX.git"
