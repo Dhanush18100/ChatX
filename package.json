@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "node backend/src/index.js"
-  },
+  "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend && cp -r frontend/dist backend/frontend-dist",
+  "start": "node backend/src/index.js"
+},
   "engines": {
     "node": "20.x"
   },
