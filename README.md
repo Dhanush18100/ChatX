@@ -1,1 +1,1 @@
-LIVE NOW : https://chatx-e7ya.onrender.com
+LIVE NOW : https://chatx-e7ya.onrender.com/
