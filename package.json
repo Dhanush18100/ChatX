@@ -1,24 +1,13 @@
 {
-  "name": "chatx",
+  "name": "chat-app",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend && cp -r frontend/dist backend/frontend-dist",
-  "start": "node backend/src/index.js"
-},
-  "engines": {
-    "node": "20.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dhanush18100/ChatX.git"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dhanush18100/ChatX/issues"
-  },
-  "homepage": ".",
-  "description": ""
+  "license": "ISC"
 }
